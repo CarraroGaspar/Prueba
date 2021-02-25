@@ -1,6 +1,7 @@
 import React from 'react';
 import { View, Text, TouchableOpacity } from 'react-native'
 import Button from '../components/Button'
+import InputText from '../components/InputText'
 
 export default function Home({ navigation }) {
     return <View style={{display:"flex", flex: 1}}>
@@ -9,5 +10,6 @@ export default function Home({ navigation }) {
         <TouchableOpacity onPress={() => navigation.navigate("Activity")}><Text>Activity</Text></TouchableOpacity>
         <TouchableOpacity onPress={() => navigation.navigate("Assignment")}><Text>Assignment</Text></TouchableOpacity>
         <Button style={{backgroundColor:"yellow"}}><Text>Gaspar</Text></Button>
+        <InputText></InputText>
     </View>
 }
