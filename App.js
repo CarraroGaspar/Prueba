@@ -8,6 +8,7 @@ import Child from './screens/Child'
 import Assignment from './screens/Assignment'
 
 const Tab = createBottomTabNavigator();
+const AuthContext = React.createContext(false)
 
 export default function App() {
   return (
