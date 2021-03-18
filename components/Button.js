@@ -1,5 +1,5 @@
 import React from 'react';
-import { TouchableOpacity, StyleSheet } from '@bit/react-native'
+import { TouchableOpacity, StyleSheet } from 'react-native'
 
 export default function Button({style, children}) {
     return <TouchableOpacity style={style ? style : styles.button}>{children}</TouchableOpacity>
